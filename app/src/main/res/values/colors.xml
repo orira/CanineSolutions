@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary_color">#e67e22</color>
+    <color name="accent_color">#228AE6</color>
+
+    <color name="black_opacity_sixty_percent">#99000000</color>
+    <color name="black_opacity_fifty_percent">#80000000</color>
+    <color name="black_opacity_thirty_percent">#4D000000</color>
+    <color name="black_opacity_twenty_five_percent">#40000000</color>
+    <color name="black_full_transparency">#00000000</color>
+</resources>
