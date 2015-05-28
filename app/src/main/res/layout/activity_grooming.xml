@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--<com.flaviofaria.kenburnsview.KenBurnsView
+        android:id="@+id/image_view_grooming"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop" />-->
+
+    <ImageView
+        android:id="@+id/image_view_grooming"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop" />
+
+    <com.rsd.caninesolutions.widget.RobotoTextView
+        android:id="@+id/title_grooming"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:textSize="@dimen/font_size_large"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:background="@drawable/gradient_protection"
+        android:textColor="@android:color/white"
+        custom:typeface="MEDIUM" />
+</RelativeLayout>
